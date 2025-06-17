@@ -1,0 +1,70 @@
+db_path = "dbs/bne.db"
+
+datasets = {
+    "gra": "GRAFNOPRO",
+    "grp": "GRAFPRO",
+    "son":"GRABSONORA",
+    "ele": "RECELECTRO",
+    "vid": "VIDEO",
+    "par": "MUSICAESC",
+    "geo": "GEOGRAFICO",
+    "per": "PERSONA", 
+    "mon": "MONOMODERN", 
+    "moa": "MONOANTIGU", 
+    "ent": "ENTIDAD", 
+    "ser": "SERIADA", 
+    "mss": "MANUSCRITO",
+    "map": "CARTOGRAFI",
+    "cog": "CONGRESO",
+    "gen": "GENFORMA",
+    "kit": "KIT",
+    "mam": "MATEMIXTO",
+    "mat": "MATERIA",
+    "tit": "TITULO"
+}
+
+urls = (
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/GRAFNOPRO-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/GRAFPRO-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/GRABSONORA-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/RECELECTRO-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/VIDEO-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/MUSICAESC-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Autoridades/GEOGRAFICO-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Autoridades/PERSONA-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/MONOMODERN-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/MONOANTIGU-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Autoridades/ENTIDAD-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/SERIADA-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/MANUSCRITO-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/CARTOGRAFI-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Autoridades/CONGRESO-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Autoridades/GENFORMA-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/KIT-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Bibliograficos/MATEMIXTO-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Autoridades/MATERIA-mrc_new.mrc",
+    "https://www.bne.es/redBNE/alma/SuministroRegistros/Autoridades/TITULO-mrc_new.mrc"
+)
+
+file_names = {
+    "son": "grabsonoras",
+    "gra": "grafnoproyectables",   
+    "grp": "grafpro",
+    "mss": "manuscritos",
+    "moa": "monoantiguas",
+    "mon": "monomodernas",
+    "par": "musicaescrita",
+    "ele": "recelectronicos",
+    "ser": "seriadas",
+    "vid": "videos",
+    "geo": "geografico",
+    "ent": "entidad",
+    "per": "persona",
+    "map": "cartografi",
+    "cog": "congreso",
+    "gen": "generoforma",
+    "kit": "kit",
+    "mam": "matemixto",
+    "mat": "materia",
+    "tit": "titulo"
+}
